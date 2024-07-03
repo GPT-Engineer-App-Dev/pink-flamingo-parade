@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import flamingoImage from "@/public/placeholder.svg"; // Placeholder image
+import flamingoImage from "/placeholder.svg"; // Corrected path
 
 const Flamingos = () => {
   return (
