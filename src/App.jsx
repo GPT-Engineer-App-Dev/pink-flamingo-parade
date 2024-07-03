@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Home, Flamingo } from "lucide-react";
+import { Home, Feather } from "lucide-react"; // Changed Flamingo to Feather
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Layout from "./layouts/navbar"; // updated to use navbar layout
 import Index from "./pages/Index.jsx";
@@ -17,7 +17,7 @@ export const navItems = [
   {
     title: "Flamingos", // New navigation item
     to: "/flamingos",
-    icon: <Flamingo className="h-4 w-4" />,
+    icon: <Feather className="h-4 w-4" />, // Changed Flamingo to Feather
   },
 ];
 
